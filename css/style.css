@@ -31,7 +31,7 @@ body {
     position: absolute;
     left: 50%;
     margin-left: -100px;
-    top: 50%;
+    top: 45%;
     background-image: linear-gradient(165deg,rgba(255,255,255,0.15) 25%,transparent 25%),linear-gradient(to right,#002525,#002525),linear-gradient(to right,transparent 20%,#1aa093 20%,#1aa093 40%,transparent 40%,transparent 60%,#1aa093 60%,#1aa093 80%,transparent 80%),radial-gradient(circle,#1ba99b 50%,transparent 50%),radial-gradient(circle,#1ba99b 50%,transparent 50%),radial-gradient(circle,#1ba99b 50%,transparent 50%),linear-gradient(to bottom,#40e0d0 90%,#21ccbb 90%);
     background-size: 164px 130px,170px 130px,100% 10px,16px 16px,16px 16px,16px 16px,100% 100%;
     background-position: 50% 27%,50% 22%,50% 100%,70% 85%,80% 85%,90% 85%,0 0;
@@ -47,7 +47,7 @@ body {
     position: absolute;
     left: 50%;
     margin-left: -85px;
-    top: 54.1%;
+    top: 52.5%;
     background-image: -webkit-gradient(linear,left top, right top,from(white),to(white)),repeating-linear-gradient(to bottom,white,white 2px,transparent 2px,transparent 12px),-webkit-gradient(linear,left top, right top,color-stop(30%, transparent),color-stop(30%, #10635a),color-stop(40%, transparent),color-stop(60%, transparent),color-stop(70%, #10635a),color-stop(70%, transparent)),-webkit-gradient(linear,left top, right top,color-stop(35%, transparent),color-stop(34%, #1aa093),color-stop(44%, #1aa093),color-stop(44%, transparent),color-stop(45%, transparent),color-stop(45%, #21ccbb),color-stop(55%, #21ccbb),color-stop(55%, transparent),color-stop(56%, transparent),color-stop(56%, #168a7f),color-stop(65%, #168a7f),color-stop(65%, transparent)),-webkit-gradient(linear,left top, right top,color-stop(35%, transparent),color-stop(34%, #1eb6a7),color-stop(44%, #1eb6a7),color-stop(44%, transparent),color-stop(45%, transparent),color-stop(45%, #1aa093),color-stop(55%, #1aa093),color-stop(55%, transparent),color-stop(56%, transparent),color-stop(56%, #21ccbb),color-stop(65%, #21ccbb),color-stop(65%, transparent)),-webkit-gradient(linear,left top, right top,color-stop(35%, transparent),color-stop(34%, #168a7f),color-stop(44%, #168a7f),color-stop(44%, transparent),color-stop(45%, transparent),color-stop(45%, #1aa093),color-stop(55%, #1aa093),color-stop(55%, transparent),color-stop(56%, transparent),color-stop(56%, #1eb6a7),color-stop(65%, #1eb6a7),color-stop(65%, transparent)),-webkit-gradient(linear,left top, right top,color-stop(30%, transparent),color-stop(30%, #003e3f),color-stop(70%, #003e3f),color-stop(70%, transparent));
     background-image: linear-gradient(to right,white,white),repeating-linear-gradient(to bottom,white,white 2px,transparent 2px,transparent 12px),linear-gradient(to right,transparent 30%,#10635a 30%,transparent 40%,transparent 60%,#10635a 70%,transparent 70%),linear-gradient(to right,transparent 35%,#1aa093 34%,#1aa093 44%,transparent 44%,transparent 45%,#21ccbb 45%,#21ccbb 55%,transparent 55%,transparent 56%,#168a7f 56%,#168a7f 65%,transparent 65%),linear-gradient(to right,transparent 35%,#1eb6a7 34%,#1eb6a7 44%,transparent 44%,transparent 45%,#1aa093 45%,#1aa093 55%,transparent 55%,transparent 56%,#21ccbb 56%,#21ccbb 65%,transparent 65%),linear-gradient(to right,transparent 35%,#168a7f 34%,#168a7f 44%,transparent 44%,transparent 45%,#1aa093 45%,#1aa093 55%,transparent 55%,transparent 56%,#1eb6a7 56%,#1eb6a7 65%,transparent 65%),linear-gradient(to right,transparent 30%,#003e3f 30%,#003e3f 70%,transparent 70%);
     background-size: 2px 50px,8px 50px,200px 70px,200px 18px,200px 18px,200px 18px,200px 70px;
@@ -89,6 +89,14 @@ body {
 
     .entry.fours,.entry.six {
         width: 50%
+    }
+
+    #xray:before {
+        top: 49%;
+    }
+
+    #xray:after {
+        top: 54%;
     }
 }
 
